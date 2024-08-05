@@ -20,6 +20,22 @@ section {
     margin-top: 15px;
     margin-bottom: 50px;
 }
+/* Global Styling */
+
+.advert {
+    background-color: #FF9500;
+    display: flex;
+    gap:  0.7rem;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    height: 50px;
+    border-radius: 6px;
+    font-weight: 400;
+}
+.ad-arrow {
+    padding-top: 7px;
+}
 nav {
     height: 70px;
     border-radius: 3px;
@@ -29,4 +45,65 @@ nav {
     font-weight: 400;
     border-bottom: 1px solid #e0e0e6 ;
     color: #262626;
+}
+.cont {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+nav .left {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+nav .left ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+nav .left ul li a {
+    text-decoration: none;
+    color: black;
+}
+nav .left ul li .live {
+    background-color: #e7e7ed;
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+nav .right {
+    display: flex;
+    align-items: center;
+}
+nav .right ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+nav .right ul li a {
+    text-decoration: none;
+    color: black;
+}
+nav .right ul li .btn {
+    color: white;
+    background-color: #FF9500;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+.checkbtn {
+    font-size: 30px;
+    color: #262626;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+}
+.abstract {
+    position: absolute;
+    left: -24px;
+    top: -30px;
 }
