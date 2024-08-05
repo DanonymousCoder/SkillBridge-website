@@ -200,3 +200,33 @@ nav .right ul li .btn {
     padding: 22px 44px;
     border-right: 1px solid #F1F1F3;
 }
+.video-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.video {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 95vh;
+    border-radius: 8px;
+}
+
+.sm-video {
+    display: none;
+}
+.video-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video-img .bg-video {
+    background-position: center;
+    background-size: cover;
+}
