@@ -230,3 +230,38 @@ nav .right ul li .btn {
     background-position: center;
     background-size: cover;
 }
+
+/* Benefit Section */
+.benefit-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.benefit {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.benefit .head {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.benefit .head .text {
+    width: 60%;
+    color: #262626;
+}
+.benefit .head .text h3 {
+    font-weight: 600;
+    font-size: 36px;
+    padding-bottom: 10px;
+}
+.benefit .head .text p {
+    font-weight: 400;
+    font-size: 16px;
+}
