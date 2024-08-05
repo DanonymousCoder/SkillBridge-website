@@ -265,3 +265,82 @@ nav .right ul li .btn {
     font-weight: 400;
     font-size: 16px;
 }
+.benefit .head .btn  {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.benefit .head .btn a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #FCFCFD;
+    color: #262626;
+    border-radius: 6px;
+    border: 2px solid #F1F1F3;
+}
+.benefit .sub {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 40px;
+    width: 100%;
+}
+.benefit .row1 {
+    display: flex;
+    gap: 1rem;
+}
+.benefit .row1 .card {
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    padding: 15px 30px;
+    height: 322px;
+}
+.benefit .row1 .card .num {
+    display: flex;
+    justify-content: right;
+    padding-bottom: 12px;
+    font-weight: 700;
+    font-size: 32px;
+}
+.benefit .row1 .card .head {
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.benefit .row1 .card .sub {
+    font-weight: 400;
+    font-size: 14px;    
+}
+.benefit .row1 .card .img {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.benefit .row1 .card .img img {
+    padding: 10px;
+    background-color: #F1F1F3;
+    border-radius: 6px;
+}
+
+/* Courses section */
+.course-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.courses {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.courses .head {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
