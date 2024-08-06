@@ -510,3 +510,99 @@ nav .right ul li .btn {
     justify-content: center;
     align-items: center;
 }
+.testimonial .head {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.testimonial .head .text {
+    width: 60%;
+    color: #262626;
+}
+.testimonial .head .text h3 {
+    font-weight: 600;
+    font-size: 36px;
+    padding-bottom: 10px;
+}
+.testimonial .head .text p {
+    font-weight: 400;
+    font-size: 16px;
+}
+.testimonial .head .btn  {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.testimonial .head .btn a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #FCFCFD;
+    color: #262626;
+    border-radius: 6px;
+    border: 2px solid #F1F1F3;
+}
+.testimonial .sub {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.row2 {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+.test1 {
+    width: 50%;
+    height: 220px;
+    color: #262626;
+}
+.test1 .top {
+    background-color: #FFFFFF;
+    height: 60%;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid #F1F1F3;
+}
+.test1 .top p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.test1 .bottom {
+    background-color: #FCFCFD;
+    height: 40%;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+    border: 0.5px solid #F1F1F3;
+}
+.person {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.person p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+.test1 a {
+    background-color: #F7F7F8;
+    border: 1px solid #F1F1F3;
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 14px 16px;
+    color: #262626;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+} 
