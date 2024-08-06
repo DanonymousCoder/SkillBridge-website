@@ -976,3 +976,151 @@ nav .right ul li .btn {
         padding: 10px 20px;
     }
 }
+
+
+
+
+@media screen and (max-width: 430px) {
+    .advert p {
+        font-size: 12px;
+    }
+    .ad-arrow {
+        font-size: 5px;
+    }
+    .check {
+        color: black;
+    }
+    .hero .hero-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero .hero-body .block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+    .hero .block h1 {
+        font-size: 15px;
+    }
+    .hero .catch {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero .catch p {
+        font-size: 24px;
+    }
+    .hero .catch .slogan  {
+        font-size: 14px;
+        text-align: center;
+        width: 290px;
+    }
+    .hero-body .block {
+        width: 90%;
+    }
+    .hero-btn ul li a {
+        font-size: 12px;
+    }
+    .head {
+        flex-direction: column;
+    }
+    .head .text p {
+        width: 100%;
+    }
+    .bg-video {
+        display: none;
+    }
+    .video-img .sm-video {
+        display: block;
+        width: 100%;
+        background-color: black;
+    }
+    .benefit .head .text {
+        width: 100%;
+    }
+    .courses .head .text {
+        width: 100%;
+    }
+    .descrip {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        justify-content: flex-start;
+    }
+    .path {
+        height: 670px;
+    }
+    .testimonial .head .text {
+        width: 100%;
+    }
+    .pricing .head .text {
+        width: 100%;
+    }
+    .pricing .head .btn {
+        justify-content: center;
+    }
+    .pricing .sub .plan {
+        height: 800px;
+    }
+    .row1 {
+        flex-direction: column;
+    }
+    .owl {
+        display: none;
+    }
+    .row2 {
+        flex-direction: column;
+    }
+    .testimonial .sub .row2 {
+        flex-direction: column;
+    }
+    .testimonial .sub .row2 .test1 {
+        width: 100%;
+        height: 250px;
+    }
+    .test1 .top p {
+        font-size: 14px;
+        line-height: 21px;
+        padding-top: 15px;
+    }
+    .person p {
+        font-size: 14px;
+    }
+    .pricing .sub {
+        flex-direction: column;
+        height: 1650px;
+    }
+    .pricing .sub .plan {
+        width: 100%;
+        height: 900px;
+    }
+    .pricing .sub .features h3 {
+        padding-top: 15px;
+    }
+    .pricing .sub .features .butn {
+        padding: 20px;
+    }
+    .faq {
+        flex-direction: column;
+    }
+    .faq .head {
+        width: 100%;
+    }
+    .faq .sub {
+        width: 100%;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .more {
+        flex-wrap: wrap;
+        gap: 4rem;
+        margin-top: 40px;
+    }
+    .line2 {
+        padding-left: 10px;
+    }
+}
