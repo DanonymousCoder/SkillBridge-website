@@ -890,3 +890,89 @@ nav .right ul li .btn {
     gap: 0.5rem;
     align-items: center;
 }
+.rol1 {
+    display: flex;
+    margin-top: 20px;
+    gap: 0.5rem;
+    align-items: center;
+}
+.rol1 p {
+    color: #262626;
+    font-weight: 400;
+    font-size: 16px;
+}
+.line2 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.line2 ul li a {
+    text-decoration: none;
+    color: #59595A;
+    font-weight: 400;
+    font-size: 16px;
+}
+.line3 ul li a {
+    text-decoration: none;
+    color: #59595A;
+}
+.line3 ul {
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+}
+.copy {
+    width: 90%;
+    border-top: 1px solid #F1F1F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+
+
+/**
+ * Responsive styles    
+ */
+
+@media  (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+    nav .links ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 160px;
+        left:  -100%;
+        text-align: center;
+        flex-direction: column;
+        transition: all .5s;
+        background-color: #FF9500;
+    }
+    nav .links ul li {
+        display: block;
+    }
+    nav .links ul li a {
+        font-size: 20px;
+    }
+    nav .links ul li a:hover, .active {
+        background-color: #e7e7ed;
+        border-radius: 6px;
+        padding: 10px 20px;
+    }
+    #check:checked ~ nav .links ul{
+        left: 0;
+    }
+    .right ul li a {
+        font-size: 12px;
+    }
+    .sponsor {
+        overflow: hidden;
+    }
+    .card {
+        padding: 10px 20px;
+    }
+}
