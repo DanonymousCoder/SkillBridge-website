@@ -606,3 +606,43 @@ nav .right ul li .btn {
     font-size: 14px;
     line-height: 21px;
 } 
+
+/* Pricing Section */
+.pricing-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pricing {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pricing .head {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.pricing .head .text {
+    width: 60%;
+    color: #262626;
+}
+.pricing .head .text h3 {
+    font-weight: 600;
+    font-size: 36px;
+    padding-bottom: 10px;
+}
+.pricing .head .text p {
+    font-weight: 400;
+    font-size: 16px;
+}
+.pricing .head .btn  {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
