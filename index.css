@@ -814,3 +814,79 @@ nav .right ul li .btn {
     text-decoration: none;
     border-radius: 6px;
 }
+.sub .quest {
+    border: 1px solid #F1F1F3;
+    padding: 10px 10px 20px 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.quest .holder {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #F1F1F3;
+    padding-bottom: 12px;
+    padding-top: 10px;
+}
+.quest p {
+    width: 90%;
+    padding: 25px 0;
+}
+.quest .cont1 {
+    display: flex;
+    width: 90%;
+    background-color: #F7F7F8;
+    padding: 5px 15px;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: space-between;
+}
+.arrow {
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+.quest1 {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+    border: 1px solid #F1F1F3;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    gap: 1.5rem;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+/* Footer Section */
+.footer-cont {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer {
+    width: 90%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.more {
+    display: flex;
+    gap: 8rem;
+}
+.rol1 {
+    display: flex;
+    margin-top: 20px;
+    gap: 0.5rem;
+    align-items: center;
+}
