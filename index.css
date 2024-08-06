@@ -646,3 +646,74 @@ nav .right ul li .btn {
     align-items: flex-end;
     justify-content: flex-end;
 }
+.pricing .head .btn a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #FCFCFD;
+    color: #262626;
+    border-radius: 6px;
+    border: 2px solid #F1F1F3;
+}
+.pricing .head .btn {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.pricing .head .anchor {
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+} 
+.pricing .head .anchor .active {
+    background-color: #FF9500;
+    border-radius: 6px;
+    color: white;
+}
+.pricing .head .anchor a {
+    background-color: white;
+    border: none;
+}
+.pricing .sub {
+    background-color: white;
+    width: 100%;
+    padding: 30px;
+    border-radius: 12px;
+    height: 850px;
+    display: flex;
+    gap: 1rem;
+}
+.plan {
+    width: 50%;
+    background-color: #FCFCFD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    color: #262626;
+    height: 800px;
+}
+.plan .btn {
+    width: 90%;
+    background-color: #FFEACC;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid #FFF9F0;
+}
+.plan .btn a {
+    text-decoration: none;
+    color: #262626;
+}
+.price {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.price span {
+    font-size: 50px;
+    font-weight: 600;
+}
