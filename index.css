@@ -344,3 +344,169 @@ nav .right ul li .btn {
     justify-content: space-between;
     margin-bottom: 30px;
 }
+.courses .head .text {
+    width: 60%;
+    color: #262626;
+}
+.courses .head .text h3 {
+    font-weight: 600;
+    font-size: 36px;
+    padding-bottom: 10px;
+}
+.courses .head .text p {
+    font-weight: 400;
+    font-size: 16px;
+}
+.courses .head .btn  {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.courses .head .btn a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #FCFCFD;
+    color: #262626;
+    border-radius: 6px;
+    border: 2px solid #F1F1F3;
+}
+.courses .sub {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.courses .sub .row2 {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+
+
+
+}
+.path {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+}
+.path .top {
+    background-image: url("./assets/images/web.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    width: 95%;
+    height: 50%;
+}
+.top2 {
+    background-image: url("./assets/images/uiux.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    width: 95%;
+    height: 50%;
+}
+.top3 {
+    background-image: url("./assets/images/mobile.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    width: 95%;
+    height: 50%;
+}
+.top4 {
+    background-image: url("./assets/images/graphic.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    width: 95%;
+    height: 50%;
+}
+.top5 {
+    background-image: url("./assets/images/frontend.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    width: 95%;
+    height: 50%;
+}
+.top6 {
+    background-image: url("./assets/images/adv.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    width: 95%;
+    height: 50%;  
+}
+.path .bottom {
+    width: 95%;
+    height: 50%;
+}
+.descrip {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.r1 {
+    display: flex;
+    gap: 2rem;
+    color: #4C4C4D;
+}
+.r1 p {
+    padding: 7px 10px;
+    border: 1px solid #F1F1F3;
+    border-radius: 6px;
+    color: #4C4C4D;
+    font-size: 12px;
+}
+.tutor {
+    color: #262626;
+    font-weight: 500;
+    font-size: 14px;
+} 
+.path .bottom .head {
+    font-weight: 600;
+    font-size: 18px;
+}
+.sub {
+    font-weight: 400;
+    font-size: 14px;
+}
+.path .bottom .button {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #F7F7F8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+}
+.get {
+    text-decoration: none;
+    text-align: center;
+    color: #262626;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+/* Testimonial Section */
+.testimonial-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
