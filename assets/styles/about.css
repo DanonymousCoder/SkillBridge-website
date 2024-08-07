@@ -104,3 +104,27 @@ body {
     border-radius: 10px;
     width: 50%;
 }
+.row1 img {
+    background-color: #FFF9F0;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #FFEACC;
+}
+
+.about .bottom .column .row .row1 .head {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #262626;
+}
+
+.about .bottom .column .row .row1 .sub {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #59595A;
+}
