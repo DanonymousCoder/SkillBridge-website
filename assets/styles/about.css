@@ -261,3 +261,68 @@ body {
     padding-top: 40px;
     padding-bottom: 5px;
 }
+
+@media screen and (max-width: 430px) {
+    .hero-cont .hero {
+        display: flex;
+        flex-direction: column;
+        gap: 1px; 
+    }
+    .hd-text,
+    .sb-text {
+        width: 100%;
+    }
+    .hd-text h2 {
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .sb-text p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .about .top h3 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .about .top p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .about .bottom {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .column{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about .bottom .column .row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about .bottom .column .row .row1 {
+        width: 90%;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 30px;
+    }
+    .column .row .row1 .head {
+        font-size: 18px;
+    }
+    .column .row .row1 .sub {
+        font-size: 14px;
+    }
+    .footer {
+        flex-direction: column;
+    }
+
+    .more {
+        flex-wrap: wrap;
+        gap: 4rem;
+        margin-top: 40px;
+    }
+}
