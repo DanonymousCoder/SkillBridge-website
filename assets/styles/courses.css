@@ -175,3 +175,23 @@ body {
 .s1.border {
     border-left : 1px solid #F1F1F3;
 }
+
+/* Footer Section */
+.footer-cont {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer {
+    width: 90%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.more {
+    display: flex;
+    gap: 8rem;
+}
