@@ -195,3 +195,44 @@ body {
     display: flex;
     gap: 8rem;
 }
+.rol1 {
+    display: flex;
+    margin-top: 20px;
+    gap: 0.5rem;
+    align-items: center;
+}
+.rol1 p {
+    color: #262626;
+    font-weight: 400;
+    font-size: 16px;
+}
+.line2 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.line2 ul li a {
+    text-decoration: none;
+    color: #59595A;
+    font-weight: 400;
+    font-size: 16px;
+}
+.line3 ul li a {
+    text-decoration: none;
+    color: #59595A;
+}
+.line3 ul {
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+}
+.copy {
+    width: 90%;
+    border-top: 1px solid #F1F1F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
