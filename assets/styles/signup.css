@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+}
+
+.left {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.test1 {
+    width: 80% !important;
+}
+
+.sign-arrows {
+    display: flex;
+    gap: 5px;
+    align-self: flex-end;
+}
+
+.sign-arrow a {
+    color: #262626;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 12px;
+    background-color: #FFFFFF;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid #F1F1F3;
+    opacity: 0px;
+}
+
+.right {
+    width: 40%;
+}
