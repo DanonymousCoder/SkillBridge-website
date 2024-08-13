@@ -1124,3 +1124,54 @@ nav .right ul li .btn {
         padding-left: 10px;
     }
 }
+
+/* responsive design that bring the toggle bar to the right hand side */
+@media (max-width: 767px) {
+    Custom CSS for mobile view
+    .navbar-toggler {
+        order: 1; /* Move the mobile toggle button after "nav-left" */
+    }
+    .nav-item {
+        order: 2; /* Move "nav-left" before the mobile toggle button */
+    }
+
+    /* Courses Style */
+    .hero {
+        flex-direction: column;
+    }
+
+    .w-50 {
+        width: 80% !important;
+    }
+
+    .left {
+        padding-bottom: 5% !important;
+    }
+
+    .card-body {
+        flex-direction: column;
+    }
+
+    .down {
+        flex-direction: column;
+        justify-content: flex-start !important;
+        align-items: start !important;
+    }
+
+    .img-container {
+        width: 120px !important;
+        gap: 5px !important;
+    }
+
+    .period {
+        flex-direction: column;
+        gap: 15px !important;
+    }
+
+    .select {
+        justify-content: flex-start !important;
+        align-items: start !important;
+        padding: 5px 0 5px 0 !important;
+        margin: 10px 0 10px 0 !important;
+    }
+}
