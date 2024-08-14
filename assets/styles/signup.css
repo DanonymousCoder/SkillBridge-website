@@ -59,7 +59,9 @@ main {
     width: 540px;
     height: 556px;
     padding: 40px;
-    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     border-radius: 10px;
 }
 
@@ -82,6 +84,70 @@ main {
     font-weight: 400;
     line-height: 20px;
     text-align: center;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.name label {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.name input {
+    width: 360px;
+    height: 44px;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px;
+    border: 1px solid #F1F1F3;
+}
+
+.name input::placeholder {
+    color: #656567;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.mail {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.mail label {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.mail input {
+    width: 360px;
+    height: 44px;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px;
+    border: 1px solid #F1F1F3;
+}
+
+.mail input::placeholder {
+    color: #656567;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
 }
 
 .checkbox a {
