@@ -19,6 +19,7 @@ main {
     gap: 20px;
     align-items: center;
     justify-content: center;
+    padding: 0 50px;
 }
 
 .left {
@@ -72,6 +73,12 @@ main {
     width: 100%;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .head h2 {
     font-size: 38px;
     font-weight: 600;
@@ -96,6 +103,7 @@ main {
 .name label {
     font-size: 16px;
     font-weight: 500;
+    color: #262626;
     line-height: 24px;
     text-align: left;
 }
@@ -129,6 +137,7 @@ main {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
+    color: #262626;
     text-align: left;
 }
 
@@ -150,8 +159,71 @@ main {
     text-align: left;
 }
 
+.password {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.password label {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #262626;
+}
+
+.password input {
+    width: 360px;
+    height: 44px;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px;
+    border: 1px solid #F1F1F3;
+}
+
+.password input::placeholder {
+    color: #656567;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.checkbox {
+    padding: 10px 0;
+    display: flex;
+    gap: .5em;
+}
+
+.checkbox label {
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #656567;
+}
+
 .checkbox a {
     text-decoration: underline;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+button {
+    background-color: #FF9500;
+    border: none;
+    width: 400px;
+    height: 49px;
+    padding: 14px 20px 14px 20px;
+    gap: 10px;
+    border-radius: 8px;
 }
 
 .final a {
