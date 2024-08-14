@@ -10,14 +10,19 @@ body {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 main {
     width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .left {
-    width: 60%;
+    width: 60% !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,7 +36,9 @@ main {
 .sign-arrows {
     display: flex;
     gap: 5px;
-    align-self: flex-end;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 80% !important;
 }
 
 .sign-arrow a {
@@ -47,5 +54,40 @@ main {
 }
 
 .right {
-    width: 40%;
+    width: 40% !important;
+    background-color: #FFFFFF;
+    width: 540px;
+    height: 556px;
+    padding: 40px;
+    gap: 40px;
+    border-radius: 10px;
+}
+
+.right .head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.head h2 {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+}
+
+.head p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.checkbox a {
+    text-decoration: underline;
+}
+
+.final a {
+    text-decoration: underline;
 }
