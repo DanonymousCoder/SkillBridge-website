@@ -30,6 +30,16 @@ main {
     gap: 20px;
 }
 
+.sign-top p {
+    width: 80%;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #59595A;
+}
+
 .test1 {
     width: 80% !important;
 }
@@ -58,7 +68,7 @@ main {
     width: 40% !important;
     background-color: #FFFFFF;
     width: 540px;
-    height: 556px;
+    height: 656px;
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -76,6 +86,7 @@ main {
 form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 10px;
 }
 
@@ -109,7 +120,7 @@ form {
 }
 
 .name input {
-    width: 360px;
+    width: 400px;
     height: 44px;
     padding: 20px;
     gap: 10px;
@@ -142,7 +153,7 @@ form {
 }
 
 .mail input {
-    width: 360px;
+    width: 400px;
     height: 44px;
     padding: 20px;
     gap: 10px;
@@ -175,7 +186,7 @@ form {
 }
 
 .password input {
-    width: 360px;
+    width: 400px;
     height: 44px;
     padding: 20px;
     gap: 10px;
@@ -226,6 +237,43 @@ button {
     border-radius: 8px;
 }
 
+.or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.google {
+    background-color: #F7F7F8;
+    border: 1px solid #F1F1F3;
+    width: 400px;
+    height: 49px;
+    padding: 14px 20px 14px 20px;
+    gap: 10px;
+    border-radius: 8px;
+}
+
+.final {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.final p {
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
 .final a {
     text-decoration: underline;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
 }
