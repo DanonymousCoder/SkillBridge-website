@@ -406,12 +406,148 @@ footer {
     .phone {
         width: 100%;
     }
+
+    form button {
+        margin-bottom: 30px;
+        display: flex;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+    }
     
     .infos {
         width: 100%;
+        padding-left: 1em;
+        padding-right: 1em;
     }
 
     .box {
         width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box .img {
+        width: 22px;
+        height: 22px;
+        padding: 6px;
+        gap: 10px;
+        border-radius: 6px;
+        background-color: #F7F7F8;
+        border: 1px solid #F1F1F3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .box p {
+        font-family: Be Vietnam Pro;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cont-head {
+        flex-direction: row;
+    }
+
+    .cont-head h2 {
+        font-family: Be Vietnam Pro;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 42px;
+        text-align: left;
+        width: 90%;
+    }
+
+    .cont-head p {
+        font-family: Be Vietnam Pro;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: left;
+        width: 90%;
+    }
+
+    .contact {
+        flex-direction: column;
+        gap: .5em;
+    }
+
+    form {
+        width: 100%;
+        height: auto;
+    }
+
+    .name {
+        flex-direction: column;
+    }
+
+    .fname {
+        width: 100%;
+    }
+
+    .lname {
+        width: 100%;
+    }
+
+    .lane2 {
+        flex-direction: column;
+    }
+
+    .mail {
+        width: 100%;
+    }
+
+    .phone {
+        width: 100%;
+    }
+
+    form button {
+        margin-bottom: 30px;
+        display: flex;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .infos {
+        width: 100%;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .box {
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box .img {
+        width: 22px;
+        height: 22px;
+        padding: 6px;
+        gap: 10px;
+        border-radius: 6px;
+        background-color: #F7F7F8;
+        border: 1px solid #F1F1F3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .box p {
+        font-family: Be Vietnam Pro;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: center;
+    }
+
+    .more  {
+        gap: 1.5em;
     }
 }
