@@ -294,3 +294,76 @@ header .live {
     line-height: 21px;
     text-align: left;
 }
+
+@media screen and (max-width: 425px) {
+    main {
+        flex-direction: column-reverse;
+    }
+
+    main .right {
+        width: 100% !important;
+    }
+
+    main .right h2 {
+        font-family: Be Vietnam Pro;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    main .right .head p {
+        font-family: Be Vietnam Pro;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17.71px;
+        text-align: center;
+    }
+
+    label {
+        font-family: Be Vietnam Pro;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        text-align: left;
+    }
+    
+    .checkbox label {
+        font-family: Be Vietnam Pro;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: left;
+    }
+    .checkbox a {
+        font-family: Be Vietnam Pro;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: left;
+    }
+
+    .final {
+        font-family: Be Vietnam Pro;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: center;
+    }
+
+    .final a {
+        font-family: Be Vietnam Pro;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        text-align: center;
+    }
+
+    .left {
+        width: 90%;
+    }
+
+    .left h2 {
+
+    }
+}
