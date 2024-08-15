@@ -359,11 +359,63 @@ header .live {
         text-align: center;
     }
 
-    .left {
-        width: 90%;
+    main .left {
+        width: 100% !important;
     }
 
-    .left h2 {
+    .sign-top h2 {
+        width: 100%;
+        font-family: Be Vietnam Pro;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 42px;
+        text-align: left;
+    }
 
+    .sign-top p {
+        width: 100%;
+        font-family: Be Vietnam Pro;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: left;
+    }
+
+    main .test1 {
+        width: 100% !important;
+    }
+
+    main .test1 p {
+        font-family: Be Vietnam Pro;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: left;
+    }
+
+   main .test1 .person p {
+        font-family: Be Vietnam Pro;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    main .test1 .butn a {
+        font-family: Be Vietnam Pro;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        text-align: center;
+    }
+
+    .sign-arrows {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .sign-arrow a {
+        padding: 10px;
+        gap: 6px;
     }
 }
