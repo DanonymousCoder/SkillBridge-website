@@ -158,7 +158,16 @@ form {
     gap: 12px;
     border-radius: 6px;
     border: 1px solid #F1F1F3;
-    color: #FCFCFD;
+    background-color: #FCFCFD;
+}
+
+.mail input::placeholder {
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #656567;
 }
 
 .phone {
@@ -177,6 +186,14 @@ form {
     border-radius: 6px;
     border: 1px solid #F1F1F3;
     color: #FCFCFD;
+}
+
+.phone input::placeholder {
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
 }
 
 .phone label {
@@ -214,6 +231,14 @@ form {
     color: #FCFCFD;
 }
 
+.subject input::placeholder {
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
 .message {
     display: flex;
     flex-direction: column;
@@ -229,6 +254,35 @@ form {
     font-weight: 500;
     line-height: 24px;
     text-align: left;
+}
+
+.message textarea{
+    width: 100%;
+    height: 138px;
+    padding: 20px;
+    gap: 12px;
+    border-radius: 6px;
+    border: 1px solid #F1F1F3;
+    background-color: #FCFCFD;
+}
+
+.message textarea::placeholder {
+    color: #656567;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+form button {
+    background-color: #FF9500;
+    border: none;
+    width: 174px;
+    height: 49px;
+    padding: 14px 20px 14px 20px;
+    gap: 10px;
+    border-radius: 6px;
 }
 
 .infos {
