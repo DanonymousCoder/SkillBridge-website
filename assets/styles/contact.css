@@ -15,7 +15,7 @@ a {
 
 main {
     width: 100%;
-    background-color: #FFFFFF;
+    background-color: #F1F1F3;
     display: flex;
     flex-direction: column !important;
     justify-content: center;
@@ -55,14 +55,14 @@ main {
 
 .contact {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     width: 80%;
     margin-top: 50px;
 }
 
 form {
-    width: 50%;
-    height: 766px;
+    width: 60%;
+    height: 600px;
     top: 510px;
     left: 80px;
     gap: 0px;
@@ -71,7 +71,9 @@ form {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 1em;
+    gap: 1.5em;
+    background-color: #FFFFFF;
+    padding: 40px 0 0 30px;
 }
 
 .name {
@@ -79,12 +81,14 @@ form {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    width: 90%;
 }
 
 .fname {
     display: flex;
     flex-direction: column;
     gap: .5em;
+    width: 50%;
 }
 
 .fname input{
@@ -94,7 +98,8 @@ form {
     gap: 12px;
     border-radius: 6px;
     border: 1px solid #F1F1F3;
-    color: #FCFCFD;
+    background-color: #FCFCFD;
+    color: #656567;
 }
 
 .fname label {
@@ -109,6 +114,7 @@ form {
     display: flex;
     flex-direction: column;
     gap: .5em;
+    width: 50%;
 }
 
 .lname label {
@@ -126,12 +132,13 @@ form {
     gap: 12px;
     border-radius: 6px;
     border: 1px solid #F1F1F3;
-    color: #FCFCFD;
+    background-color: #FCFCFD;
+    color: #656567;
 }
 
 .lane2 {
     display: flex;
-    width: 100%;
+    width: 90%;
     gap: 20px;
 }
 
@@ -141,6 +148,7 @@ form {
     justify-content: flex-start;
     align-items: flex-start;
     gap: .5em;
+    width: 50%;
 }
 
 .mail label {
@@ -159,6 +167,7 @@ form {
     border-radius: 6px;
     border: 1px solid #F1F1F3;
     background-color: #FCFCFD;
+    color: #656567;
 }
 
 .mail input::placeholder {
@@ -176,6 +185,7 @@ form {
     justify-content: flex-start;
     align-items: flex-start;
     gap: .5em;
+    width: 50%;
 }
 
 .phone input{
@@ -185,7 +195,8 @@ form {
     gap: 12px;
     border-radius: 6px;
     border: 1px solid #F1F1F3;
-    color: #FCFCFD;
+    background-color: #FCFCFD;
+    color: #656567;
 }
 
 .phone input::placeholder {
@@ -228,7 +239,8 @@ form {
     gap: 12px;
     border-radius: 6px;
     border: 1px solid #F1F1F3;
-    color: #FCFCFD;
+    background-color: #FCFCFD;
+    color: #656567;
 }
 
 .subject input::placeholder {
@@ -264,6 +276,7 @@ form {
     border-radius: 6px;
     border: 1px solid #F1F1F3;
     background-color: #FCFCFD;
+    color: #656567;
 }
 
 .message textarea::placeholder {
@@ -283,10 +296,51 @@ form button {
     padding: 14px 20px 14px 20px;
     gap: 10px;
     border-radius: 6px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
 }
 
 .infos {
-    width: 50%;
-    background-color: black;
-    height: 300px;
+    width: 39%;
+    background-color: #FFFFFF;
+    height: 550;
+    padding: 60px;
+    gap: 0px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+}
+
+.box {
+    width: 290px;
+    height: 113.5px;
+    padding: 30 0 0 0;
+    gap: 14px;
+    border-radius: 6px;
+    border: 1px solid #F1F1F3;
+    background-color: #FCFCFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .img {
+    display: flex;
+    flex-direction: column;
+}
+
+.box img {
+    width: 44px;
+    height: 44px;
+    padding: 12 0 0 0;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid #F1F1F3;
+    background-color: #F7F7F8;
 }
