@@ -419,3 +419,128 @@ header .live {
         gap: 6px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column-reverse;
+    }
+
+    main .right {
+        width: 100% !important;
+    }
+
+    main .right h2 {
+        font-family: Be Vietnam Pro;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    main .right .head p {
+        font-family: Be Vietnam Pro;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17.71px;
+        text-align: center;
+    }
+
+    label {
+        font-family: Be Vietnam Pro;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        text-align: left;
+    }
+    
+    .checkbox label {
+        font-family: Be Vietnam Pro;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: left;
+    }
+    .checkbox a {
+        font-family: Be Vietnam Pro;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: left;
+    }
+
+    .final {
+        font-family: Be Vietnam Pro;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: center;
+    }
+
+    .final a {
+        font-family: Be Vietnam Pro;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        text-align: center;
+    }
+
+    main .left {
+        width: 100% !important;
+    }
+
+    .sign-top h2 {
+        width: 100%;
+        font-family: Be Vietnam Pro;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 42px;
+        text-align: left;
+    }
+
+    .sign-top p {
+        width: 100%;
+        font-family: Be Vietnam Pro;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: left;
+    }
+
+    main .test1 {
+        width: 100% !important;
+    }
+
+    main .test1 p {
+        font-family: Be Vietnam Pro;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: left;
+    }
+
+   main .test1 .person p {
+        font-family: Be Vietnam Pro;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    main .test1 .butn a {
+        font-family: Be Vietnam Pro;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        text-align: center;
+    }
+
+    .sign-arrows {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .sign-arrow a {
+        padding: 10px;
+        gap: 6px;
+    }
+}
